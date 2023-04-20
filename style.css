@@ -1,0 +1,440 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.header {
+   width:100%;
+   height:  80px;
+   background: linear-gradient(rgba(0, 0, 50, 0.10),rgba(0,0,0,0.10))
+}
+.three-flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 6px 20px;
+}
+.logo {
+   width: 100px;
+}
+.logo img{
+   width: 100%;
+   height: 100%;
+}
+.nav-bar ul li {
+   display: inline;
+   list-style: none;
+   padding: 10px 15px;
+}
+.nav-bar ul li a{
+   text-decoration: none;
+   font-size: 18px;
+   text-transform: capitalize;
+}
+.register-btn button {
+   font-size: 14px;
+   border-radius: 20px;
+   padding: 13px 30px;
+   outline: none;
+   border: 1px solid gray;
+   transition: 0.6s;
+}
+.register-btn button:hover{
+   background-color: darkcyan;
+   text-shadow: 2px 3px 4px blue;
+   color: white;
+}
+
+/* ------section-one----- */
+.section-one {
+   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/frndimg2.jfif); 
+   width: 100%;
+   height: 600px;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+} 
+.one-btn {
+   position: absolute;
+   bottom: 100px;
+   right: 545px;
+}
+.next-stay h1 {
+   font-size: 25px;
+   color: white;
+}
+.search-btn {
+   padding-top: 15px;
+   text-align: center;
+}
+.search-btn button{
+   font-size: 14px;
+   color: white;
+   background-color: orangered;
+   border: none;
+   padding: 10px 16px;
+   border-radius: 10px;
+}
+@media only screen and (max-width:768px){
+   .one-btn {
+      right: 272px;
+   }
+}
+
+/* ------section-two----- */
+.section-two{
+   background-color: #d9d1d1;
+   width: 100%;
+   height: 500px;
+}
+.exclusives{
+   padding: 30px 50px;
+}
+.exclusives h1 {
+   font-size: 25px;
+   font-family: 'Courier New', Courier, monospace;
+   text-shadow: 2px 2px 1px blue;
+}
+.grid-images{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ; 
+    grid-gap: 30px;
+    padding: 0px 50px;
+}
+.landon-img {
+   width: 212px;
+   height: 102px;
+}
+.landon-img img {
+   width:100%;
+   height: 100%;
+   border-radius: 5px;
+}
+.place-img{
+   position: relative;
+}
+.position{
+   position: absolute;
+   top: 38px;
+   left: 57px;
+}
+.title h1 {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.price p {
+   color: white;
+   font-size: 14px;
+   text-align: center;
+}
+@media only screen and (max-width:768px) {
+   .landon-img{
+      width: 110px;
+      height: 65px;
+   }
+   .position{
+      top: 19px;
+      left: 14px;
+   }
+   .section-two {
+      height: 293px;
+   }
+}
+/* -----section-three----- */
+.section-three{
+   width: 100%;
+   height: 600px;
+}
+.trending-place {
+   padding: 32px 0px 25px 58px;
+}
+.trending-place h1 {
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.four-places {
+   display: flex;
+   justify-content: space-around;
+}
+.dubai {
+   width:226px;
+   height: 249px;
+}
+.dubai img {
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+}
+.text {
+   padding-top: 20px;
+}
+.text h1 {
+   font-size: 18px;
+   font-family: 'Courier New', Courier, monospace;
+}
+@media only screen and (max-width:768px){
+   .dubai{
+      width: 166px;
+      height: 200px;
+   }
+   .trending-place{
+      padding: 32px 0px 25px 14px;;
+   }
+   .section-three{
+      height: 380px;
+   }
+}
+/* ------section-four-------*/
+.section-four {
+   width: 100%;
+   height:  600px;
+   background-color: snow;
+}
+ .imgcont {
+   position: relative;
+} 
+.big-img {
+   width: 180vh;
+   margin: auto;
+   height: 500px;
+}
+.big-img img {
+   width: 100%;
+   height: 100%;
+} 
+.textcont{
+   position: absolute;
+   top: 155px;
+   left: 150px;
+}
+.earning {
+   padding-bottom: 13px;
+}
+.earning h1 {
+     font-size: 25px;
+     font-family: 'Courier New', Courier, monospace;
+     color: aliceblue;
+}
+.sharing-money{
+   padding-bottom: 15px;
+}
+.sharing-money p {
+   font-size: 18px;
+   color:  khaki;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.more-btn button {
+   color: aliceblue;
+   font-size: 14px;
+   background-color: brown;
+   padding: 12px 15px;
+   border: none;
+   border-radius: 5px;
+   transition: 0.6s;
+}
+.more-btn button:hover{
+   background-color:  aliceblue;
+   color: black;
+   text-shadow: 2px 3px 2px blue;
+}
+@media only screen and (max-width:768px){
+   .textcont{
+      top: 176px;
+      left: 99px;
+   }
+   .section-four{
+      height: 502px;
+   }
+}
+/*------section-five-----*/
+.section-five {
+     width: 100%;
+     height: 600px;
+}
+.stories {
+   padding: 30px 81px;
+}
+.stories h1{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.threeimg-flex{
+   display: flex;
+   justify-content: space-around;
+}
+.img-box1{
+   position: relative;
+}
+.first-img {
+   width: 290px;
+   height: 310px;
+}
+.first-img img {
+   width: 100%;
+   height: 100%;
+   border-radius: 8px;
+}
+.long-para1 {
+   position: absolute;
+   top: 166px;
+   left: 36px;
+}
+.long-para1 p {
+   color: white;
+   font-size: 18px;
+   text-align: center;
+   line-height: 1.5em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.second-img {
+   width: 290px;
+   height: 310px;
+}
+.second-img img {
+   width: 100%;
+   height: 100%;
+   border-radius: 8px;
+}
+.long-para2 {
+   position: absolute;
+   top: 166px;
+   left: 36px;
+}
+.long-para2 p {
+   color: white;
+   font-size: 18px;
+   text-align: center;
+   line-height: 1.5em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.third-img {
+   width: 290px;
+   height: 310px;
+}
+.third-img img {
+   width: 100%;
+   height: 100%;
+   border-radius: 8px;
+}
+.long-para3 {
+   position: absolute;
+   top: 166px;
+   left: 36px;
+}
+.long-para3 p {
+   color: white;
+   font-size: 18px;
+   text-align: center;
+   line-height: 1.5em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.making-money {
+   text-align: center;
+   padding-top: 60px;
+}
+.making-money button {
+   background-color: tomato;
+   outline: none;
+   border: none;
+   color: white;
+   padding: 15px 65px;
+   border-radius: 20px;
+   font-size: 14px;
+   transition: 0.6s;
+}
+.making-money button:hover{
+   background-color: slateblue;
+}
+@media only screen and (max-width:768px){
+   .first-img {
+      width: 205px;
+      height: 235px;
+   }
+   .second-img{
+      width: 205px;
+      height: 235px;
+   }
+   .third-img{
+      width: 205px;
+      height: 235px;
+   }
+   .long-para1{
+      top: 130px;
+      left: 27px;
+   }
+   .long-para1 p{
+      font-size: 14px;
+   }
+   .long-para2{
+      top: 130px;
+      left: 27px;
+   }
+   .long-para2 p{
+      font-size: 14px;
+   }
+   .long-para3{
+      top: 130px;
+      left: 27px;
+   }
+   .long-para3 p{
+      font-size: 14px;
+   }
+   .stories{
+      padding: 25px 24px;
+   }
+   .section-five{
+      height: 427px;
+   }
+}
+/* -------section-six------ */
+.section-six{
+   width:100%;
+   height: 352px;
+}
+.about-stay {
+   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 20px;
+}
+.about-stay h1 {
+   font-size: 25px;
+   font-family: sans-serif;
+}
+.long-para {
+   text-align: center;
+   line-height: 1.6em;
+}
+.long-para p {
+   font-size: 16px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #6e6363;
+}
+.icon-flex {
+   text-align: center;
+   padding-top: 60px;
+   padding-bottom: 15px;
+
+}
+.icon-flex i {
+   padding-left: 10px;
+   font-size: 18px;
+   color: #4e4646;
+}
+.icon-flex i:hover{
+  color: blue;
+  transition: 0.6s;
+}
+.copyright {
+   text-align: center;
+   padding-top: 10px;
+}
+.copyright p {
+   font-size: 16px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media only screen and (max-width:768px){
+   .icon-flex{
+      padding-top: 28px;
+   }
+}
